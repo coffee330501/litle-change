@@ -1,6 +1,5 @@
 import Vue from "vue";
 import VueRouter, { RouteConfig } from "vue-router";
-import history from "connect-history-api-fallback";
 
 Vue.use(VueRouter);
 
