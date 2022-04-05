@@ -1,15 +1,10 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
+    <router-link to="/index">aaa</router-link>
     <div>
-      <p>
-        If Element is successfully added to this project, you'll see an
-        <code v-text="'<el-button>'"></code>
-        below
-      </p>
-      <el-button>el-button</el-button>
+    <Index msg="网站名-待定"/>
     </div>
-    <Index msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
