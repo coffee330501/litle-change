@@ -3,6 +3,7 @@ import App from "./App.vue";
 import router from "./router";
 import Element from "element-ui";
 import store from "./store";
+import './plugins/element.js'
 Vue.config.productionTip = false;
 
 Vue.use(Element, { size: "medium", zIndex: 3000 });
