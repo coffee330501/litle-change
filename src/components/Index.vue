@@ -1,15 +1,17 @@
 <template>
   <div>
-    <h1>{{ msg }}</h1>
-    <Login></Login>
+    <!-- <h1>{{ msg }}</h1> -->
+    <home></home>
   </div>
 </template>
 <script lang="ts">
 import { Component, Prop, Vue } from 'vue-property-decorator';
 import Login from '../views/Login.vue'
+import home from '../views/main/home.vue'
 @Component({
   components:{
-    Login
+    Login,
+    home
   }
 })
 export default class Index extends Vue {

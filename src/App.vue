@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-link to="/index">aaa</router-link>
+    <!-- <img src="./assets/logo.png">
+    <router-link to="/home">aaa</router-link> -->
     <div>
     <Index msg="网站名-待定"/>
     </div>
