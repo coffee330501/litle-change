@@ -9,6 +9,7 @@
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
 import Index from '@/components/Index.vue'; // @ is an alias to /src
+import { LightReq } from '../axios/index';
 
 @Component({
   name:'login',
@@ -20,8 +21,12 @@ export default class extends Vue {
   private accountNumber ='';
   private pwd ='';
 
-  private login(){
+  // TODO 路由到这里时,如果已经登录则直接进入主页面
+  public async login():Promise<void>{
     console.log("登录...",this.accountNumber,this.pwd );
+    const res = await LightReq.get('file/A')
+    console.log(res);
+    
     this.$router.push('/home')
   }
 }

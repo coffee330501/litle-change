@@ -1,22 +1,13 @@
 <template>
   <div id="app">
-    <!-- <img src="./assets/logo.png">
-    <router-link to="/home">aaa</router-link> -->
-    <div>
-      <Index msg="网站名-待定" />
-    </div>
     <router-view></router-view>
   </div>
 </template>
 
 <script>
-import Index from "./components/Index.vue";
-
 export default {
   name: "app",
-  components: {
-    Index,
-  },
+  components: {},
 };
 </script>
 

@@ -10,6 +10,12 @@ const routes: Array<RouteConfig> = [
     component: () =>
       import(/* webpackChunkName: "home" */ "../views/main/home.vue"),
   },
+  {
+    path: "/",
+    name: "login",
+    component: () =>
+      import(/* webpackChunkName: "home" */ "../views/Login.vue"),
+  },
 ];
 
 const router = new VueRouter({

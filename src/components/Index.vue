@@ -1,7 +1,7 @@
 <template>
   <div>
-    <!-- <h1>{{ msg }}</h1> -->
-    <home></home>
+    <h1>{{ msg }}</h1>
+    <Login></Login>
   </div>
 </template>
 <script lang="ts">
